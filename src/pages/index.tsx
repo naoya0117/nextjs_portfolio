@@ -31,12 +31,11 @@ export default function Home() {
           <li>Bash</li>
           <li>C</li>
           <li>Java</li>
-          <li>Typescript</li>
         </ul>
-        <p>ツール</p>
+        <p>フレームワーク・ライブラリ</p>
         <ul>
+          <li>React.js</li>
           <li>next.js</li>
-          <li>React</li>
         </ul>
       </main>
     </div>
