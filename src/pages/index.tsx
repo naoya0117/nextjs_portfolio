@@ -16,14 +16,26 @@ export default function Home() {
         <p>大学生で、現在は情報系の学部に通っています。</p>
         <p>普段は、Linuxを中心に触っており、最近はアプリケーション開発を学んでおります。</p>
         <p>最近、より多くの技術を触れるようになったので備忘録がほしいと思い、ブログを作成しました。</p>
-        <Link href="https://github.com/naoya0117">Github</Link>
+        <Link href="https://github.com/naoya0117"><img src="button/github-mark.png" alt="github" /></Link>
         <h2>Skill</h2>
+        <p>経験環境・ツール</p>
         <ul>
-          <li>Linux(ArchLinux)</li>
+          <li>GNU/Linux(ArchLinux)</li>
+          <li>Windows</li>
+          <li>Docker</li>
           <li>Git</li>
+          <li>vim</li>
+        </ul>
+        <p>使用言語</p>
+        <ul>
           <li>Bash</li>
           <li>C</li>
-          <li>Typescript</li>
+          <li>Java</li>
+        </ul>
+        <p>フレームワーク・ライブラリ</p>
+        <ul>
+          <li>React.js</li>
+          <li>next.js</li>
         </ul>
       </main>
     </div>
