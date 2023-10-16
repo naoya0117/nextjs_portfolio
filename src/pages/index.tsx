@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -20,7 +21,11 @@ export default function Home() {
           <p>大学生で、現在は情報系の学部に通っています。</p>
           <p>普段は、Linuxを中心に触っており、最近はアプリケーション開発を学んでおります。</p>
           <p>最近、より多くの技術を触れるようになったので備忘録がほしいと思い、ブログを作成しました。</p>
-          <Link href="https://github.com/naoya0117"><img src="button/github-mark.png" alt="github" /></Link>
+          <Link href="https://github.com/naoya0117">
+            <Image src={"/button/github-mark.png"}
+                   width={30} height={30}
+                   alt={"github-button"}/>
+          </Link>
           <h1>スキル</h1>
           <h2>開発環境</h2>
           <ul>
@@ -35,11 +40,13 @@ export default function Home() {
             <li>Bash</li>
             <li>C</li>
             <li>Java</li>
+            <li>Typescript</li>
           </ul>
           <h2>フレームワーク・ライブラリ</h2>
           <ul>
             <li>React.js</li>
             <li>next.js</li>
+            <li>Springboot</li>
           </ul>
         </div>
       </main>
