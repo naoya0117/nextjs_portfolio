@@ -21,12 +21,19 @@ export default function Home() {
           <p>大学生で、現在は情報系の学部に通っています。</p>
           <p>普段は、Linuxを中心に触っており、最近はアプリケーション開発を学んでおります。</p>
           <p>最近、より多くの技術を触れるようになったので備忘録がほしいと思い、ブログを作成しました。</p>
-          <Link href="https://github.com/naoya0117">
-            <Image src={"/button/github-mark.png"}
-                   width={30} height={30}
-                   alt={"github-button"}/>
-          </Link>
-          <h1>スキル</h1>
+          <div className={styles.buttonContainer}>
+            <Link className={styles.button} href="https://github.com/naoya0117">
+              <Image src={"/button/github-mark.png"}
+                     width={30} height={30}
+                     alt={"github-button"}/>
+            </Link>
+            <Link className={styles.button} href={"mailto:117302@yahoo.ne.jp"}>
+              <Image src={"/button/gmail.png"}
+                       width={50} height={50}
+                     alt={"gmail-button"}/>
+            </Link>
+          </div>
+          <h1>Skill</h1>
           <h2>開発環境</h2>
           <ul>
             <li>GNU/Linux(ArchLinux)</li>
