@@ -1,4 +1,5 @@
 .header {
+    padding: 1rem;
     background-color: #282c34;
     min-height: 60vh;
     display: flex;
@@ -13,6 +14,26 @@
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    width: 90%;
+    min-width: 70%;
     padding: 1rem;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+}
+.button {
+    padding: 1rem;
+    margin : auto 1rem;
+}
+.button:hover {
+    background-color: #1e90ff;
+}
+@media screen and (max-width: 640px) {
+    .header {
+        min-height: 40vh;
+    }
+    .buttonContainer {
+        justify-content: center;
+    }
 }
