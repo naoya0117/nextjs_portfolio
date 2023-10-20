@@ -30,7 +30,7 @@ export default function Portfolio() {
                     </>
                 }/>
             </ListItemButton>
-            <ListItemButton href="https://naoya.github.io">
+            <ListItemButton href="https://naoya0117.github.io">
                 <ListItemText primary="ポートフォリオサイト"  secondary={
                     <>
                         ポートフォリオサイトです。随時更新予定です。<br/>
