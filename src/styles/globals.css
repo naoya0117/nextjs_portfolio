@@ -25,6 +25,7 @@ main {
   display: flex;
   flex-direction: column;
   min-height: 80vh;
+  min-width: 90%;
 }
 
 h1 {
@@ -40,5 +41,24 @@ h2 {
 h3 {
   font-size: 1.25rem;
   font-weight: 700;
+<<<<<<< Updated upstream
   margin-bottom: 1rem;
 }
+=======
+  margin: 2rem 0 ;
+}
+
+p {
+  line-height : 2rem;
+  font-size: 1.10rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 70%;
+    padding: 1rem;
+}
+>>>>>>> Stashed changes
