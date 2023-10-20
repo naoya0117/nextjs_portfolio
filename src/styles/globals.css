@@ -25,6 +25,7 @@ main {
   display: flex;
   flex-direction: column;
   min-height: 80vh;
+  min-width: 90%;
 }
 
 h1 {
@@ -43,7 +44,7 @@ h3 {
   line-height: 1rem;
   font-size: 1.25rem;
   font-weight: 700;
-  margin: 2rem 0 ;
+  margin-bottom: 1rem;
 }
 
 p {
