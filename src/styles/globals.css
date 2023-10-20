@@ -50,3 +50,12 @@ p {
   line-height : 2rem;
   font-size: 1.10rem;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 70%;
+    padding: 1rem;
+}
