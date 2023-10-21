@@ -1,7 +1,7 @@
-import {ListItemButton, ListItemText} from "@mui/material";
+import {Container, ListItemButton, ListItemText} from "@mui/material";
 export default function Portfolio() {
     return (
-        <main className="container">
+        <Container maxWidth="sm">
             <h1>Portfolio</h1>
             <h2>MySkill</h2>
             <p>大学で、プログラミング言語やアルゴリズム、システム開発の流れなど幅広く学習しています。<br/>
@@ -84,20 +84,19 @@ export default function Portfolio() {
                 <ListItemText primary="wslポートフォワードスクリプトの作成"  secondary={
                     <>
                         wsl2にスマートフォンからアクセスするために、ポートフォワードの設定をpowershellで書きました。
-                        かんたんな短いスクリプトですが、ちゃんとwindowsにも触れています。
+                        かんたんな短いスクリプトですが、ここでwindowsにも触れていることをアピールしておきます。
                     </>
                 }/>
             </ListItemButton>
             <ListItemButton href="https://github.com/naoya0117/vim_runtime">
                 <ListItemText primary="vim設定の自動化"  secondary={
                     <>
-                        仮想環境触るたびにvimの設定をするのが面倒だったので、
-                        自分のvimの設定をbashを使用して自動化しました。面倒な作業はbashで自動化させることが多いです。
+                        仮想環境触るたびにvimの設定ファイルを書くが面倒だったので、
+                        自分のvimの設定をbashを用いて自動化しました。普段から面倒な作業はBashで自動化させています。
                     </>
                 }/>
             </ListItemButton>
-
-        </main>
+        </Container>
 
     )
 }
