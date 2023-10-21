@@ -1,18 +1,25 @@
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import Image from "next/image";
-import {Button, Grid} from "@mui/material";
+import {Box, Button, Container, Grid, Typography} from "@mui/material";
 
 export default function Home() {
   return (
     <>
       <title>naoya0117</title>
-      <main>
-        <header className={styles.header}>
-            <h1>こんにちは</h1>
-            <p>情報系の学部に通う学生のブログサイトです</p>
-            <p>フレームワークの学習がてらnext.jsで作りました</p>
-        </header>
+  <Box
+      sx={{
+        width: "100vw",
+        height: 400,
+        backgroundColor: '#282C34',
+      }} >
+    <Typography style={{ color: "white", fontSize: "1.5rem",  paddingTop: 5, display: "flex", justifyContent: "center", alignItems: "center", height: 400, padding: "1rem"}}>
+      こんにちは<br/><br/>
+      情報系の学部に通う学生のブログサイトです<br/>
+      フレームワークの学習がてらnext.jsで作りました
+    </Typography>
+    </Box>
+      <Container maxWidth="sm">
         <div className={styles.container}>
           <h1>About</h1>
           <p>はじめまして</p>
@@ -51,7 +58,7 @@ export default function Home() {
             </Button>
           </Grid>
         </div>
-      </main>
+      </Container>
     </>
   )
 }

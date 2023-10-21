@@ -9,14 +9,6 @@
     font-size: calc(10px + 2vmin);
     color: white;
 }
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    min-width: 70%;
-    padding: 1rem;
-}
 
 .buttonContainer {
     display: flex;
