@@ -10,7 +10,7 @@ export default function Portfolio() {
             <p>
                 <br/>
                 開発ツール・環境
-                <img src="https://skillicons.dev/icons?i=git,linux,docer,vim,vscode,idea" alt="myskill"/>
+                <img src="https://skillicons.dev/icons?i=git,linux,docker,vim,vscode,idea" alt="myskill"/>
                 開発言語
                 <img src="https://skillicons.dev/icons?i=c,java,bash,py,ts,html,css,postgres" alt="myskill"/>
                 フレームワーク・ライブラリ
