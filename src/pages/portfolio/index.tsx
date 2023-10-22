@@ -10,11 +10,11 @@ export default function Portfolio() {
             <p>
                 <br/>
                 開発ツール・環境
-                <img src="https://skillicons.dev/icons?i=git,linux,vim,docker" alt="myskill"/>
+                <img src="https://skillicons.dev/icons?i=git,linux,docer,vim,vscode,idea" alt="myskill"/>
                 開発言語
-                <img src="https://skillicons.dev/icons?i=c,java,bash,py,ts,html,css" alt="myskill"/>
+                <img src="https://skillicons.dev/icons?i=c,java,bash,py,ts,html,css,postgres" alt="myskill"/>
                 フレームワーク・ライブラリ
-                <img src="https://skillicons.dev/icons?i=react,nextjs,spring,gradle,postgres,docker" alt="myskill"/>
+                <img src="https://skillicons.dev/icons?i=react,nextjs,spring" alt="myskill"/>
                 <br/>
                 <br/>
             </p>
