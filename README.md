@@ -1,4 +1,4 @@
 # naoya0117.github.io
-my portfolio site
+- portfolioサイトをnext.jsで作りました
 
 https://naoya0117.github.io
